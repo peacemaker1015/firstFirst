@@ -1,0 +1,17 @@
+/Users/taylorbowser/schloop2/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/taylorbowser/schloop2/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/taylorbowser/schloop2/obj/Debug/Assembly-CSharp-firstpass.dll
+/Users/taylorbowser/schloop2/obj/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/taylorbowser/schloop2/Temp/bin/Debug/UnityEngine.dll
+/Users/taylorbowser/schloop2/Temp/bin/Debug/UnityEditor.dll
+/Users/taylorbowser/schloop2/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/taylorbowser/schloop2/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/taylorbowser/schloop2/Temp/bin/Debug/Mono.Cecil.dll
+/Users/taylorbowser/schloop2/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/taylorbowser/schloop2/Temp/bin/Debug/Unity.DataContract.dll
+/Users/taylorbowser/schloop2/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/taylorbowser/schloop2/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/taylorbowser/schloop2/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/taylorbowser/schloop2/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/taylorbowser/schloop2/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/taylorbowser/schloop2/Temp/bin/Debug/Mono.Cecil.Mdb.dll
