@@ -57,7 +57,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca8e09d46e76745f5b1399b6e20746ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spd: 60
 --- !u!114 &11450492
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -70,6 +69,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spd: 2
+  rotate_spd: 1
 --- !u!114 &11473872
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -125,6 +125,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: spd
       value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rotate_spd
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

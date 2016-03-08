@@ -56,8 +56,6 @@ public class SchloopController : MonoBehaviour
 			body.MovePosition (new Vector2 (body.position.x, body.position.y + move));
 		else if (Input.GetKeyDown (KeyCode.DownArrow) && (body.position.y > minHeight))
 			body.MovePosition (new Vector2 (body.position.x, body.position.y - move));
-		else
-			return;
 
 		if (body.position.y > minHeight)
 			offground = true;

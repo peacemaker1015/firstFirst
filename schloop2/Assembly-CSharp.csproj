@@ -61,7 +61,6 @@
      <Compile Include="Assets\Schloop Assets\Scripts\MovingObject.cs" />
      <Compile Include="Assets\Schloop Assets\Scripts\MyCharacterController.cs" />
      <Compile Include="Assets\Schloop Assets\Scripts\PowerupScript.cs" />
-     <Compile Include="Assets\Schloop Assets\Scripts\Rotate.cs" />
      <Compile Include="Assets\Schloop Assets\Scripts\SchloopController.cs" />
      <Compile Include="Assets\Schloop Assets\Scripts\SpawnScript.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
