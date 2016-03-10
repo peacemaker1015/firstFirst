@@ -6,8 +6,13 @@ public class MovingObject : MonoBehaviour {
 	public float spd = 1f;
 	public float rotate_spd = 1f;
 
+	public Transform prnt;
+
 	// Use this for initialization
 	void Start () {
+
+		prnt = transform.parent;
+	
 	}
 
 	// Update is called once per frame
@@ -20,15 +25,21 @@ public class MovingObject : MonoBehaviour {
 	}
 
 
-	/*void OnDestroy()
+	void OnDestroy()
 	{
-		if (gameObject.tag == "Car")
-			gameObject.transform.parent.car_counter--;
-		else if (gameObject.tag == "Missile")
-			gameObject.transform.parent.missile_counter--;
-		else if (gameObject.tag == "Stoplight")
-			gameObject.transform.parent.light_counter--;
-		else
-			return;
-	}*/
+		print ("DOOP"); //I need to get the parent during runtime, I guess...
+
+		/*if (prnt) 
+		{
+			if (gameObject.tag == "Car")
+				prnt.car_counter--;
+			else if (gameObject.tag == "Missile")
+				prnt.missile_counter--;
+			else if (gameObject.tag == "Stoplight")
+				prnt.light_counter--;
+			else if (gameObject.tag == "Powerup")
+				prnt.powerup_counter--;
+		}*/
+
+	}
 }

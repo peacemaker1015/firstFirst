@@ -53,7 +53,7 @@ public class SpawnScript : MonoBehaviour {
 		print (gameObject.name + "is currently: " + car_counter + " " + missile_counter + " " + light_counter + " " + powerup_counter);
 
 		// We're going to set a counter for each object so we limit the amount of them spawned PER ROW.
-		if ((car_counter + missile_counter + light_counter + powerup_counter) <= 3)
+		if ((car_counter + missile_counter + light_counter + powerup_counter) <= 4)
 			Invoke ("Spawn", Random.Range(spawnMin,spawnMax));
 
 	}

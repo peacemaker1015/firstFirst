@@ -15,7 +15,7 @@ GameObject:
   - 95: {fileID: 9511324}
   m_Layer: 0
   m_Name: Missile
-  m_TagString: MIssile
+  m_TagString: Missile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75,6 +75,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spd: 2
+  rotate_spd: 1
 --- !u!114 &11463388
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -150,7 +151,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_TagString
-      value: MIssile
+      value: Missile
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_LocalPosition.x
