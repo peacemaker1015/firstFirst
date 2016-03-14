@@ -8,6 +8,8 @@ public class SpawnScript : MonoBehaviour {
 	public float spawnMin = 1f;
 	public float spawnMax = 2f;
 
+	//bool readyNow = true;
+
 	//Here are all my counters. Remember, Taylor, these are PER SPAWNER. D:
 	public float car_counter = 0;
 	public float missile_counter = 0;
@@ -15,11 +17,22 @@ public class SpawnScript : MonoBehaviour {
 	public float powerup_counter = 0;
 
 	void Start () {
-			Spawn ();
+		Spawn ();
 	}
 
 	void Spawn()
 	{
+		//Debug.Log ("Before yield...");
+		StartCoroutine ("pauseSpawn");
+		//Debug.Log ("After yield...");
+	}
+
+	IEnumerator pauseSpawn()
+	{
+		yield return new WaitForSeconds (Random.Range(3,6));
+
+		print ("BOOM! We just waited.");
+
 		//temp = obj[Random.Range(0, obj.Length)];
 
 		temp = (GameObject)Instantiate (obj[Random.Range(0, obj.Length)], transform.position, Quaternion.identity);
@@ -52,10 +65,15 @@ public class SpawnScript : MonoBehaviour {
 
 		print (gameObject.name + "is currently: " + car_counter + " " + missile_counter + " " + light_counter + " " + powerup_counter);
 
+
 		// We're going to set a counter for each object so we limit the amount of them spawned PER ROW.
 		if ((car_counter + missile_counter + light_counter + powerup_counter) <= 4)
 			Invoke ("Spawn", Random.Range(spawnMin,spawnMax));
+	}
 
+	void onDestroy()
+	{
+		print ("Uh... what happened?");
 	}
 		
 

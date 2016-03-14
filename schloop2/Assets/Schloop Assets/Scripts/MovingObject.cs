@@ -27,7 +27,7 @@ public class MovingObject : MonoBehaviour {
 
 	void OnDestroy()
 	{
-		print ("DOOP"); //I need to get the parent during runtime, I guess...
+		//print ("I DIED"); //I need to get the parent during runtime... I can't get to the counters with the parent's Transform. I need something else.
 
 		/*if (prnt) 
 		{

@@ -57,6 +57,7 @@
      <Compile Include="Assets\Schloop Assets\Scripts\BackgroundScroller.cs" />
      <Compile Include="Assets\Schloop Assets\Scripts\CameraRunnerScript.cs" />
      <Compile Include="Assets\Schloop Assets\Scripts\DestroyerScript.cs" />
+     <Compile Include="Assets\Schloop Assets\Scripts\GameOverScript.cs" />
      <Compile Include="Assets\Schloop Assets\Scripts\HUDScript.cs" />
      <Compile Include="Assets\Schloop Assets\Scripts\MovingObject.cs" />
      <Compile Include="Assets\Schloop Assets\Scripts\MyCharacterController.cs" />
