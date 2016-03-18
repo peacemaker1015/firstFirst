@@ -60,10 +60,10 @@
      <Compile Include="Assets\Schloop Assets\Scripts\GameOverScript.cs" />
      <Compile Include="Assets\Schloop Assets\Scripts\HUDScript.cs" />
      <Compile Include="Assets\Schloop Assets\Scripts\MovingObject.cs" />
-     <Compile Include="Assets\Schloop Assets\Scripts\MyCharacterController.cs" />
      <Compile Include="Assets\Schloop Assets\Scripts\PowerupScript.cs" />
      <Compile Include="Assets\Schloop Assets\Scripts\SchloopController.cs" />
      <Compile Include="Assets\Schloop Assets\Scripts\SpawnScript.cs" />
+     <Compile Include="Assets\Schloop Assets\Scripts\TimerScript.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />

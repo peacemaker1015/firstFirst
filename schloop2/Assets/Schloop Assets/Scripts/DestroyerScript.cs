@@ -12,7 +12,7 @@ public class DestroyerScript : MonoBehaviour {
 		}
 
 		if (other.gameObject.transform.parent) {
-			Destroy (other.gameObject.transform.parent.gameObject); //If the game object has a parent, destroy the parent. Is this necessary for us? 
+			//Destroy (other.gameObject.transform.parent.gameObject); //If the game object has a parent, destroy the parent. Is this necessary for us? 
 		}
 		else if (gameObject.tag != "Destroyer" && (other.tag == "Car" || other.tag == "Missile" || other.tag == "Stoplight" || other.tag == "Powerup")) 
 		{

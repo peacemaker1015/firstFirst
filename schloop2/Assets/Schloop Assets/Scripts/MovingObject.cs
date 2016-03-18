@@ -21,13 +21,13 @@ public class MovingObject : MonoBehaviour {
 		transform.Translate (spd*(-1f)*Time.deltaTime,0f,0f); //Time.deltaTime evens out speed depending on computer's frame rate.
 
 		if (gameObject.tag == "Powerup")
-			transform.Rotate(0, 0, rotate_spd * Time.deltaTime); //PLEASE FIX THIS.
+			transform.Rotate (rotate_spd * Time.deltaTime, 0, 0);
 	}
 
 
 	void OnDestroy()
 	{
-		//print ("I DIED"); //I need to get the parent during runtime... I can't get to the counters with the parent's Transform. I need something else.
+		//print ("I DIED");
 
 		/*if (prnt) 
 		{
