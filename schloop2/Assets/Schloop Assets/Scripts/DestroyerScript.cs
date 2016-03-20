@@ -7,7 +7,7 @@ public class DestroyerScript : MonoBehaviour {
 	{
 		if (other.tag == "Player") 
 		{
-			Application.LoadLevel (1);
+			Application.LoadLevel (2);
 			return;
 		}
 

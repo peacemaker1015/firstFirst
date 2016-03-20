@@ -19,7 +19,7 @@ public class GameOverScript : MonoBehaviour {
 		GUI.Label (new Rect (Screen.width / 2 - 40, 300, 80, 30), "Score: " + score);
 
 		if (GUI.Button (new Rect (Screen.width / 2 - 30, 350, 60, 30), "Retry?"))
-			Application.LoadLevel (0);
+			Application.LoadLevel (1);
 
 	}
 
