@@ -3,8 +3,8 @@ using System.Collections;
 
 public class HUDScript : MonoBehaviour
 {
-
 	float playerScore = 0;
+	//GameOverScript script;
 	
 	// Update is called once per frame
 	void Update () {
@@ -19,6 +19,8 @@ public class HUDScript : MonoBehaviour
 	void OnDisable()
 	{
 		PlayerPrefs.SetInt("Score", (int)(playerScore * 100));
+
+		//script.addScore ((int) playerScore * 100);
 	}
 
 	void OnGUI()

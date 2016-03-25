@@ -43,7 +43,7 @@ public class SpawnScript : MonoBehaviour {
 			break;
 		}
 
-		print (gameObject.name + "is currently: " + car_counter + " " + missile_counter + " " + light_counter + " " + powerup_counter);
+		//print (gameObject.name + "is currently: " + car_counter + " " + missile_counter + " " + light_counter + " " + powerup_counter);
 
 
 		/*// We're going to set a counter for each object so we limit the amount of them spawned PER ROW.

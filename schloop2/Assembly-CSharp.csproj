@@ -60,6 +60,7 @@
      <Compile Include="Assets\Schloop Assets\Scripts\GameOverScript.cs" />
      <Compile Include="Assets\Schloop Assets\Scripts\HUDScript.cs" />
      <Compile Include="Assets\Schloop Assets\Scripts\MovingObject.cs" />
+     <Compile Include="Assets\Schloop Assets\Scripts\PlayerPrefsX.cs" />
      <Compile Include="Assets\Schloop Assets\Scripts\PowerupScript.cs" />
      <Compile Include="Assets\Schloop Assets\Scripts\SchloopController.cs" />
      <Compile Include="Assets\Schloop Assets\Scripts\SpawnScript.cs" />
